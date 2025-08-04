@@ -9,6 +9,7 @@ class Man{
     }
 
 
+    //age
     getAge(): number {
         return this.age;
     }
@@ -17,6 +18,7 @@ class Man{
         this.age = age;
     }
 
+    //name
     getName(): string {
         return this.name;
     }
