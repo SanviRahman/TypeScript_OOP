@@ -3,19 +3,19 @@ var Man = /** @class */ (function () {
         this.age = age;
         this.name = name;
     }
-    //age
-    Man.prototype.getAge = function () {
-        return this.age;
+    //set and get name
+    Man.prototype.setName = function (name) {
+        this.name = name;
     };
-    Man.prototype.setAge = function (age) {
-        this.age = age;
-    };
-    //name
     Man.prototype.getName = function () {
         return this.name;
     };
-    Man.prototype.setName = function (name) {
-        this.name = name;
+    //set and get age
+    Man.prototype.setAge = function (age) {
+        this.age = age;
+    };
+    Man.prototype.getAge = function () {
+        return this.age;
     };
     return Man;
 }());

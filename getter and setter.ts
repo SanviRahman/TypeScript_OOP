@@ -9,23 +9,24 @@ class Man{
     }
 
 
-    //age
-    getAge(): number {
-        return this.age;
+    //set and get name
+    setName(name: string): void {
+        this.name = name;
     }
 
-    setAge(age: number): void {
-        this.age = age;
-    }
-
-    //name
     getName(): string {
         return this.name;
     }
 
-    setName(name: string): void {
-        this.name = name;
+    
+    //set and get age
+     setAge(age: number): void {
+        this.age = age;
     }
+    getAge(): number {
+        return this.age;
+    }
+
 }
 
 
