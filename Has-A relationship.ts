@@ -12,7 +12,7 @@ class Car {
     private engine: Engine;
 
     constructor() {
-        this.engine = new Engine();
+        this.engine = new Engine();//tight coupling
     }
 
     start(): void {

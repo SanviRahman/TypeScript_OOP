@@ -11,7 +11,7 @@ var Engine1 = /** @class */ (function () {
 }());
 var Car1 = /** @class */ (function () {
     function Car1(engine1) {
-        this.engine1 = engine1;
+        this.engine1 = engine1; //loose coupling
     }
     Car1.prototype.start = function () {
         this.engine1.start();

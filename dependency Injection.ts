@@ -11,7 +11,7 @@ class Car1 {
     private engine1: Engine1;
 
     constructor(engine1: Engine1) {
-        this.engine1 = engine1;
+        this.engine1 = engine1;//loose coupling
     }
 
     start(): void {
